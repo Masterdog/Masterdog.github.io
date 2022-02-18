@@ -75,7 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let availableSpace = 1;
     let guessWordCount = 0;
     
-
+    alert('Inspired by wordle. Yellow means the word contain this letter. Green means the letter is correct.');
+    
     const keys = document.querySelectorAll('.keyboard-row button');
 
     function getCurrentWordArr() {
